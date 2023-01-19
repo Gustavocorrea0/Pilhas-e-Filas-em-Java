@@ -29,7 +29,7 @@ public class TrabalhoComPilha {
         P2.push(8);
 
         // TESTAR SE AS PILHAS SÃO IGUAIS OU UMA É MAIOR QUE A OUTRA
-        System.out.println("-----------------------------------------");
+        System.out.println("+-----------------------------------------+");
         if (P1.size() > P2.size()){
             System.out.println("A Primeira pilha (P1) é maior");
         } else if (P1.size() < P2.size()) {
@@ -37,19 +37,19 @@ public class TrabalhoComPilha {
         } else {
             System.out.println("Ambas as pilhas são iguais");
         }
-        System.out.println("-----------------------------------------");
+        System.out.println("+-----------------------------------------+");
 
         //MAIOR, MÉDIO E MAIOR
         maiorMedioMenorPrimeiraPilha();
-        System.out.println("-----------------------------------------");
+        System.out.println("+-----------------------------------------+");
         maiorMedioMenorSegundaPilha();
-        System.out.println("-----------------------------------------");
+        System.out.println("+-----------------------------------------+");
 
         //NÚMEROS PARES
         numerosParesPrimeiraPilha();
-        System.out.println("-----------------------------------------");
+        System.out.println("+-----------------------------------------+");
         numerosParesSegundaPilha();
-        System.out.println("-----------------------------------------");
+        System.out.println("+-----------------------------------------+");
     }
 
     private static void maiorMedioMenorPrimeiraPilha(){
